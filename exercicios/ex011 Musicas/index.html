@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente diminio o tamanho do seu navegador</p>
+    <p>
+        <picture>
+            <source media="(max-width: 750px)" srcset="img/foto-p.png" type="image/png">
+            <source media="(max-width: 1050px )" srcset="img/foto-m.png" type="image/png">
+            <img src="img/foto-g.png" alt="Imagem flexivel">
+        </picture>
+    </p>
+    <h1>Reproduzindo audio em HTML5</h1>
+    <audio preload="metadata" autoplay controls loop><!-- o alto play faz tocar a musica sozinha ao abrir o site -->
+       <source src="midia/SnapInsta.io - Eminem - The Real Slim Shady (Official Video - Clean Version) (128 kbps).mp3" type="audio/mpeg">
+    </audio>
+    <p>Ou faca o download da musica cliclando <a href="midia/SnapInsta.io - Eminem - The Real Slim Shady (Official Video - Clean Version) (128 kbps).mp3" download="">aqui</a></p>
+</body>
+</html>

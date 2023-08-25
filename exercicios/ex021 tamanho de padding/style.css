@@ -1,0 +1,27 @@
+h1{  /* box-level */
+
+    
+    /* display: inline; */
+    background-color: lightblue;
+
+    height: 300px;
+    width: 300px;
+
+    border: 10px solid red;
+
+    padding: 10px 10px 10px 10px;/* Se for medidas iguais usar somente 1 (10 px) */
+
+    margin: 20px auto 40px auto;
+
+    outline: 5px dashed rgb(55, 21, 146);
+}
+
+a{  /* inline-level */
+
+
+    /* display: block; */
+    border: 10px solid red;
+
+    padding: 10px;
+
+}

@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited{/* quando ja foi visitiado */
+    color: darkblue;
+}
+
+a:hover{/* quando passa o mouse em cima */
+    text-decoration: underline;
+    color: rgb(27, 212, 58);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a:active{/* quando e clicado */
+    color: yellow;
+}
+
+.importante::before{
+    content: '→';
+}
+
+.importante::after{
+    content: ' ←';
+}
+
+.importante{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+
