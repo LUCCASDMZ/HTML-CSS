@@ -108,13 +108,23 @@ strong{
     font-family: var(--fonte-destaque);
 }
 
-main a{
+main section a{
     background-color: var(--cor1);
     color: var(--cor5);
     padding-left: 5px;
     padding-right: 5px;
     text-decoration: none;
 }
+
+p > a{
+    background-color: var(--cor3);
+    color: var(--cor5);
+    padding-left: 5px;
+    padding-right: 5px;
+    text-decoration: none;
+
+}
+
 
 section > p > a:hover{
     text-decoration: underline;
