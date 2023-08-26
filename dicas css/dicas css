@@ -1,0 +1,93 @@
+em HTML é id = em CCS é # (So pode um elemento por pagina )
+em html é class = em CSS é .  (pode varios elementos)
+Referente aos id's, nós temos uma grande limitação: Dentro de um documento HTML, só se pode ter um elemento com o "id" e o seu respectivo nome.
+
+Você pode ter mais de um id em sua página tranquilamente. O que não pode é utilizar dois com o mesmo nome / texto no id. O id é como se fosse um CPF (1 número por pessoa) enquanto a class é o nome (no qual várias pessoas podem ter o mesmo nome).
+
+em medidas 16px = 1em 
+
+
+<main>	->	div especial, indica que o conteúdo é principal
+
+width	->	largura da caixa
+
+padding	->	espaço lateral do texto dentro da caixa
+
+margin	->	margem do texto (auto, 3px, ...) 
+
+text-align	->	alinhamento do texto (center, end, justify, ...)
+
+border-radius	-> cantos da caixa arredondados
+
+box-shadow / text-shadow	->	sombra da caixa
+
+    - parâmetros: tam. sombra p/ lado, tam. sombra p/ baixo, espalhamento, cor;
+
+	Ex:	box-shadow: 5px 5px 15px rgba(138, 111, 95, 0.616);
+		text-shadow: 1px 1px 2px rgba(129, 78, 5, 0.733);
+
+
+        margin -> define as margens de um elemento.
+        margin: 10px 5px 15px 20px|auto;
+            superior      é de 10px
+            direita         é de 5px
+            inferior       é de 15px
+            esquerda   é de 20px
+        margin: auto;
+            centralizar na horizontal
+    
+    border-radius -> Adicionar cantos arredondado
+        border-radius: 15px 50px 30px 5px
+            superior esquerdo    é de 15px
+            superior direito          é de 50px
+            inferior direito            é de 30px
+            inferior esquerdo      é de 5px
+    
+    padding -> É o espaço entre o conteúdo e a borda
+        padding: 10px 5px 15px 20px;
+            superior    é de 10px
+            direito       é  de 5px
+            inferior      é de 15px
+            esquerdo  é de 20px
+    
+    text-aling -> É o alinhamento horizontal do texto
+        text-align: left|right|center|justify|initial|inherit;
+            left-        Alinha para a esquerda
+            right-      Alinha para a direita
+            center-  Centraliza
+            justify-    Estica as linhas para que cada linha tenha a mesma largura
+            initial-      Define para o valor padrão
+            inherit-    Herda esta propriedade do seu elemento principal
+    
+    box-shadow -> Anexa uma ou mais sombras a um elemento.
+        box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit;
+            nome-       Valor padrão. Nenhuma sombra é exibida
+            h-offset-    Deslocamento horizontal da sombra
+            v-offset-    Deslocamento vertical da sombra
+            blur-           O raio de desfoque
+            spread-      raio de propagação
+            color-         A cor da sombra
+            inset-         Muda sombra externa para sombra interior
+            initial-        Define para o valor padrão
+            inherit-      Herda esta propriedade do seu elemento pai.
+
+
+
+
+
+
+            
+Shorthand font: simplificando fontes.
+
+   Ex:	 font-family: 'Work Sans', sans-serif;
+	         font-weight: bolder;
+	         font-size: 3em;
+	         font-style: italic;
+
+      Simplificando:
+
+		font:  italic  bolder  3em  'Work Sans', sans-serif;
+
+- A sequência deve ser:	
+
+		font-style   ->   font-weight   ->   font-size   ->   font-family
