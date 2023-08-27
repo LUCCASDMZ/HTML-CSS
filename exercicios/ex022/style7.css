@@ -1,0 +1,29 @@
+#container{
+    position: relative;
+    padding: 10px;
+    height: 96vh;
+
+    background-color: purple;
+    background-image: url(img/target001.png);
+    background-size: 100% 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*Essas propriedades sempre são colocadas no elemento-pai (container)*/
+}
+
+#conteudo{
+
+    background-size: 100% 100%;
+    font-size: 1vw;
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    background-color: yellow;
+
+/*     left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%); */
+}
