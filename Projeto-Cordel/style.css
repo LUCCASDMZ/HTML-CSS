@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -5,30 +15,26 @@
 }
 
 body{
-    background-color: white;
+    background-color: lightgrey;
     color: rgb(0, 0, 0);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 3vw;
 }
 
 header{
     background-color: black;
     text-align: center;
-    padding-bottom: 100px;
-    height: 10vw;
-    width: 100%;
+    font-family: var(--fonte3);
 }
 
 header > h1 {
-    padding-top: 45px;
-    font-size: 3.2;
+    font-variant: small-caps;
+    padding-top: 50px;
     color: white;
+    font-size: 10vw;
 }
 
 header > p{
-    padding: 0px;
-    font-size: 1rem;
     color: white;
+    padding-bottom: 50px;
 }
 
 a{
@@ -40,51 +46,47 @@ a:hover{
     text-decoration: underline;
 }
 
-p{
-    padding-top: 46px;
-    padding-left: 40px;
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
     font-weight: bold;
-    color: black;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
+}
+
+section > p{
+    padding-bottom: 2em;
+}
+
+#img01{
+    background: url(img/background001.jpg);
+    background-position: right center;
+    background-attachment: fixed;
+    color: white;
 }
 
 .poema{
-    margin-bottom: 100px;
-    line-height: 2.5em;
+    background-color: white;
 }
 
-.poemaFoto{
-    padding: 100px;
-    background: url(img/background001.jpg) center center/cover no-repeat fixed;
+.imagem{
+    box-shadow: inset 6px 6px 13px 0px black;
+}
+
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.452);
     display: inline-block;
-    padding: 67px 260px 100px 20px;
-    width: 100vw;
-}
-
-.poemaFoto > p{
-    color: white;
+    text-shadow: 1px 1px 0px black;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.5);
-    line-height: 2.2em;
-    font-size: 3.2;
-    width: 100%;
-    border-radius: 5px;
 }
 
-.poemafoto2{
-    padding: 100px 260px 100px 20px;
-    background: url(img/background002.jpg) center center/cover no-repeat fixed;
-    display: inline-block;
-    width: 100vw;
-}
-
-.poemafoto2 > p {
+#img02{
+    background: url(img/background002.jpg);
+    background-position: right center;
+    background-attachment: fixed;
     color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-    line-height: 2.2em;
-    font-size: 3.2;
-    width: 100%;
-    border-radius: 5px;
 }
 
 footer{
