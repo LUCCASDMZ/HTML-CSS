@@ -56,7 +56,7 @@ p{
     background: url(img/background001.jpg) center center/cover no-repeat fixed;
     display: inline-block;
     padding: 67px 260px 100px 20px;
-    width: 100vw;
+    width: 100%;
 }
 
 .poemaFoto > p{
@@ -65,7 +65,7 @@ p{
     background-color: rgba(0, 0, 0, 0.5);
     line-height: 2.2em;
     font-size: 3.2;
-    width: 40vw;
+    width: 100%;
 }
 
 .poemafoto2{
