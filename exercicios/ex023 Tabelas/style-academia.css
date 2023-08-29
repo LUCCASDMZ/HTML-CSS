@@ -1,19 +1,18 @@
 *{
     margin: 0;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1{
     text-align: center;
     background-color: rgba(128, 128, 128, 0.582);
     padding: 10px;
-    margin: 0;
+    width: 100vw;
 }
 
 table{
-    width: 750
-    0px;
     border-collapse: collapse;
+    width: 100vw;
 }
 
 td, th{
