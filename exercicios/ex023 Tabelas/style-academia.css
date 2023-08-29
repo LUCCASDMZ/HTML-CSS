@@ -6,26 +6,26 @@
 }
 
 body{
-    min-height: 100%;
     background-color:  rgba(128, 128, 128, 0.582);
 }
 
 h1{
     text-align: center;
     padding: 10px;
-    width: 100vw;
 }
 
 table{
     border-collapse: collapse;
     width: 100%;
     background-color: white;
+    height: 100%;
 }
 
 td, th{
     border: 1px solid rgb(0, 0, 0);
     padding: 20px;
     background-color: white;
+    font-size: 1.5em;
 
 }
 
