@@ -1,0 +1,54 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    width: 500px;
+    border-collapse: collapse;
+    position: relative; /* Precisa para deixar o titulo fixado */
+}
+
+td, th{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+thead, tfoot{
+    background-color: gray;
+    color: white;
+}
+
+thead > tr > th{ /* Uso para movimentar o titulo fixado */
+    position: sticky;
+    top: -1px;
+    background-color: gray;
+}
+
+td:nth-child(2){
+    text-align: right;/* Alinha os numeros da tabela para a direita */
+}
+
+caption{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightgrey;
+}
+
+tbody > tr:nth-child(2n){/* Vai colorindo pulando de 2 em 2 ou odd(impar) ou even(par) */
+    background-color: #c40e0e86;
+}
+
+
+/*   Usar a pseudo-classe	:nth-child( )
+
+  - Para linhas pares usar (even) ou (2n);
+  - Para linhas ímpares usar (odd) ou (2n-1).
+ 
+  Ex:	tbody > tr:nth-child(odd) {
+                 background-color: white;	(opcional quando o fundo já for branco)
+     }
+ 
+     tbody > tr:nth-child(even) {
+                 background-color: lightgray; */
+     
