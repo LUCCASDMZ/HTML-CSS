@@ -13,3 +13,12 @@ td, th{
 thead{
     background-color: gray;
 }
+
+td{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+}
