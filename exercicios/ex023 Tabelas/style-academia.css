@@ -1,3 +1,15 @@
+*{
+    margin: 0;
+
+}
+
+h1{
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.582);
+    padding: 10px;
+    margin: 0;
+}
+
 table{
     width: 750
     0px;
@@ -5,7 +17,7 @@ table{
 }
 
 td, th{
-    border: 1px solid black;
+    border: 1px solid rgb(0, 0, 0);
     padding: 20px;
 
 }
