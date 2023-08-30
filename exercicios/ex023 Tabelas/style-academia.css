@@ -27,7 +27,7 @@ th {
 
 td {
     text-decoration: none;
-
+    white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
     padding-bottom: 39px;
