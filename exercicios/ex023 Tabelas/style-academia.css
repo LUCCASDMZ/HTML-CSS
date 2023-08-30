@@ -10,14 +10,14 @@ body {
 
 table {
     border-collapse: collapse;
-    width: 100%; /* Ocupar toda a largura disponível */
-    max-width: 100%; /* Adicionado para garantir que a tabela não exceda a largura da tela */
+    width: 100%;
+    max-width: 100%;
 }
 
 td, th {
     border: 1px solid rgb(0, 0, 0);
-    padding: 10px; /* Reduzido o padding para evitar que a tabela fique muito ampla */
-    font-size: 1em; /* Tamanho da fonte ajustado para dispositivos móveis */
+    padding: 3px;
+    font-size: 1.5vw;
     background-color: white;
 }
 
@@ -27,9 +27,10 @@ th {
 
 td {
     text-decoration: none;
-    white-space: nowrap; /* Impede que o conteúdo da célula seja quebrado */
-    overflow: hidden; /* Evita que o conteúdo seja cortado */
-    text-overflow: ellipsis; /* Mostra reticências quando o conteúdo é cortado */
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-bottom: 39px;
 }
 
 a {
@@ -38,6 +39,11 @@ a {
 }
 
 caption {
-    font-size: 2em; /* Tamanho da legenda ajustado para dispositivos móveis */
-    padding: 5px; /* Reduzido o padding da legenda */
+    font-size: 2em;
+    padding: 5px;
+}
+
+.table-container {
+    overflow-x: auto;
+    min-width: 300px;
 }
