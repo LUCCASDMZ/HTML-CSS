@@ -1,51 +1,39 @@
-* {
+*{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
-body {
-    width: 900px;
-    margin-left: 30%;
-    background-color: rgba(128, 128, 128, 0.582);
+body{
+    background-color:  rgba(128, 128, 128, 0.582);
 }
 
-table {
+table{
     border-collapse: collapse;
-    width: 100%;
-    max-width: 100%;
 }
 
-td, th {
+td, th{
     border: 1px solid rgb(0, 0, 0);
-    padding: 3px;
-    font-size: 1.5vw;
+    padding: 20px;
     background-color: white;
+    font-size: 1.5em;
 }
 
-th {
+th{
     background-color: gray;
 }
 
-td {
+td{
     text-decoration: none;
-
-    overflow: hidden;
-    text-overflow: ellipsis;
-    padding-bottom: 39px;
 }
 
-a {
+a{
     text-decoration: none;
     color: blue;
 }
 
-caption {
-    font-size: 2em;
-    padding: 5px;
-}
-
-.table-container {
-    overflow-x: auto;
-    min-width: 300px;
+caption{
+    font-size: 4em;
+    padding: 10px;
 }
