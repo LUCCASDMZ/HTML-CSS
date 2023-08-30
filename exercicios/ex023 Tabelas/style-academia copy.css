@@ -37,3 +37,7 @@ caption{
     font-size: 4em;
     padding: 10px;
 }
+
+#container{
+    overflow-x: auto;
+}
