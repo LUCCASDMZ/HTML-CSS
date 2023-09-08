@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" required >
+            </p>
+                <label for="tel">Telefone</label>
+                <input type="tel" name="tel" id="tel" required pattern="^\(\d{2}\) \d{4,5}-\d{4}$" placeholder="(xx) x xxxx-xxxx">
+            
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="submit" value="Limpar">
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
