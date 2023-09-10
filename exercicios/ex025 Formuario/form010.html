@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplo de Formulario</h1>
+    <form action="cadastro.php" method="get">
+        <p>
+            Em que ano você nasceu? <input type="number" name="ano" id="ano" min="1900" max="2023" oninput="calcidade()">
+        </p>
+
+        <p>
+            <label for="idade">Sua idade é:</label>
+            <output id="idade">0</output>
+        </p>
+        
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+    <script src="java1.js"></script>
+</body>
+</html>

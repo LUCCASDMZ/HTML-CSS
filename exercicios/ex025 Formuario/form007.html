@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplo de formulario</h1>
+    <form action="casdastro.php" method="post">
+    <p>
+        <label for="est">Estado:</label>
+        <select name="Estado" id="est">
+
+            <option value="" selected>--- Escolha ---</option>
+            <optgroup label="Região Suldeste">
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="MG">Minas Gerais</option>
+            </optgroup>
+
+            <optgroup label="Região Centro-Oeste">
+                <option value="GO">Goias</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+            </optgroup>
+        </select>
+
+    </p>
+
+    <p>
+        <label for="Profissão">Profissão:</label>
+        <input type="text" name="prof" id="prof" list="lstprof">
+        <datalist id="lstprof">
+            <option value="ADM">Professor</option>
+            <option value="DEV">Desenvolvedor</option>
+            <option value="PROF">Professor</option>
+        </datalist>
+    </p>
+
+    <p>
+        <label for="MSG">Mensagem:</label><br>
+        <textarea name="MSG" id="MSG" cols="30" rows="10"></textarea>
+    </p>
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+    </form>
+</body>
+</html>
