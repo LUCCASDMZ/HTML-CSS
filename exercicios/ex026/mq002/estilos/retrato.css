@@ -1,1 +1,6 @@
 /* Apararelho em pé (portrait) */
+
+body{
+    background-image: url(../img/cev-portrait.jpg);
+    background-position: bottom center;
+}
