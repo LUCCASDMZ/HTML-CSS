@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: blueviolet;
+}
+
+#imagem > img{
+    width: 53vw;
+    height: 25vh;
+    margin: auto;
+    display: block;
+    margin-top: 20vh;
+    border-radius: 20px 20px 0px 0px;
+}
+
+#formulario{
+    background-color: white;
+    width: 53vw;
+    height: 37vh;
+    display: block;
+    margin: auto;
+    border-radius: 0px 0px 20px 20px;
+}
+
+h1{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+p{
+    font-size: 0.9em;
+    padding: 6px;
+}
+
+.icons{
+    background-color: blueviolet;
+    padding: 1px;
+    width: 45vw;
+    height: 4vh;
+    margin: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-align: right;
+}
+
+#email{
+    background-color: #94CFCD;
+    padding-top: 12px;
+    border-radius: 8px;
+    width: 38.4vw;
+    height: 2.3vh;
+}
+
+span{
+    color: white;
+}
+
+::placeholder{
+    font-size: 20px;
+    color: rgb(119, 116, 116);
+}
+
+#senha{
+    background-color: #94CFCD;
+    padding-top: 12px;
+    border-radius: 8px;
+    width: 38.4vw;
+    height: 2.3vh;
+}
+
+#entrar{
+    background-color: rgb(79, 224, 212);
+    border-radius: 8px;
+    width: 43vw;
+    height: 3vh;
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+}
+#entrar > a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: white;
+}
+
+#entrar:hover{
+    background-color: #2D6462;
+}
+
+#esqueciasenha{
+    border: solid rgb(79, 224, 212) 2px;
+    border-radius: 8px;
+    width: 43vw;
+    height: 3vh;
+    margin: auto;
+    margin-top: 12px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#esqueciasenha > a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: gray;
+}
+
+#esqueciasenha:hover{
+    background-color: aqua;
+}
+
+#mail{
+    color: #2D6462;
+    width: 30px;
+}
