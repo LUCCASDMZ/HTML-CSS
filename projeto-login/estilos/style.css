@@ -83,6 +83,7 @@ div.campo > label{
 
 .campo > input:focus-within{
     background-color: white;
+    outline: none;
 }
 
 .campo > .material-icons{
