@@ -6,33 +6,49 @@ Tablet: 768px até 992px
 Desktop: 992px até 1200px
 GrandesTelas: acima de 1200px
 */
-html, body{
-    width: 100vw;
-    height: 100vh;
-    background-color: #233eff;
-    background-size: contain;
-    background-repeat: no-repeat;
+
+@media screen and (min-width:768px) and (max-width:992px) { 
+    body{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+    section#login{
+        width: 80vw;
+        height: 300px;
+    }
+    section#login > #imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+    section#login > #formulario{
+        float: right;
+        width: 70%;
+
+    }
 }
+
 @media screen and (min-width: 992px) {
-    *{
-        margin: 0px;
-        padding: 0px;
+    body{
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
-
-    section{
-        display: flex;
+    section#login{
+        width: 950px;
+        height: 350px;
     }
-    #imagem{
-        background-position: center right;
+    section#login > #imagem{
+        float: left;
+        width: 50%;
+        height: 100%;
     }
-
-    #imagem > img{
-        background-position: center right;
+    section#login > #formulario{
+        float: right;
+        width: 50%;
     }
-
-    #formulario{
-        background-color: ;
-
-
+    p{
+        font-size: 1em;
+        margin: 20px 0px;
+    }
+    h1{
+        font-size: 2em;
     }
 }
